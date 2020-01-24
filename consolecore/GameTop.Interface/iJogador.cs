@@ -1,4 +1,4 @@
-namespace GameTop
+namespace GameTop.Interface
 {
     public interface iJogador
     {

@@ -1,0 +1,11 @@
+C:\Users\hpietrafeza\Documents\ProjetosCursos\Asp.NET_Core_2.2_CursoUdemy\consolecore\GameTop.Lib\obj\Debug\netstandard2.0\GameTop.Lib.csprojAssemblyReference.cache
+C:\Users\hpietrafeza\Documents\ProjetosCursos\Asp.NET_Core_2.2_CursoUdemy\consolecore\GameTop.Lib\obj\Debug\netstandard2.0\GameTop.Lib.AssemblyInfoInputs.cache
+C:\Users\hpietrafeza\Documents\ProjetosCursos\Asp.NET_Core_2.2_CursoUdemy\consolecore\GameTop.Lib\obj\Debug\netstandard2.0\GameTop.Lib.AssemblyInfo.cs
+C:\Users\hpietrafeza\Documents\ProjetosCursos\Asp.NET_Core_2.2_CursoUdemy\consolecore\GameTop.Lib\bin\Debug\netstandard2.0\GameTop.Lib.deps.json
+C:\Users\hpietrafeza\Documents\ProjetosCursos\Asp.NET_Core_2.2_CursoUdemy\consolecore\GameTop.Lib\bin\Debug\netstandard2.0\GameTop.Lib.dll
+C:\Users\hpietrafeza\Documents\ProjetosCursos\Asp.NET_Core_2.2_CursoUdemy\consolecore\GameTop.Lib\bin\Debug\netstandard2.0\GameTop.Lib.pdb
+C:\Users\hpietrafeza\Documents\ProjetosCursos\Asp.NET_Core_2.2_CursoUdemy\consolecore\GameTop.Lib\bin\Debug\netstandard2.0\GameTop.Interface.dll
+C:\Users\hpietrafeza\Documents\ProjetosCursos\Asp.NET_Core_2.2_CursoUdemy\consolecore\GameTop.Lib\bin\Debug\netstandard2.0\GameTop.Interface.pdb
+C:\Users\hpietrafeza\Documents\ProjetosCursos\Asp.NET_Core_2.2_CursoUdemy\consolecore\GameTop.Lib\obj\Debug\netstandard2.0\GameTop.Lib.csproj.CopyComplete
+C:\Users\hpietrafeza\Documents\ProjetosCursos\Asp.NET_Core_2.2_CursoUdemy\consolecore\GameTop.Lib\obj\Debug\netstandard2.0\GameTop.Lib.dll
+C:\Users\hpietrafeza\Documents\ProjetosCursos\Asp.NET_Core_2.2_CursoUdemy\consolecore\GameTop.Lib\obj\Debug\netstandard2.0\GameTop.Lib.pdb

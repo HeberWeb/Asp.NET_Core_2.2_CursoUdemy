@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hpietrafeza\\Documents\\ProjetosCursos\\consolecore\\GameTop\\GameTop.csproj",
+      "projectUniqueName": "C:\\Users\\hpietrafeza\\Documents\\ProjetosCursos\\Asp.NET_Core_2.2_CursoUdemy\\consolecore\\GameTop\\GameTop.csproj",
       "projectName": "GameTop",
-      "projectPath": "C:\\Users\\hpietrafeza\\Documents\\ProjetosCursos\\consolecore\\GameTop\\GameTop.csproj",
+      "projectPath": "C:\\Users\\hpietrafeza\\Documents\\ProjetosCursos\\Asp.NET_Core_2.2_CursoUdemy\\consolecore\\GameTop\\GameTop.csproj",
       "packagesPath": "C:\\Users\\hpietrafeza\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hpietrafeza\\Documents\\ProjetosCursos\\consolecore\\GameTop\\obj\\",
+      "outputPath": "C:\\Users\\hpietrafeza\\Documents\\ProjetosCursos\\Asp.NET_Core_2.2_CursoUdemy\\consolecore\\GameTop\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
