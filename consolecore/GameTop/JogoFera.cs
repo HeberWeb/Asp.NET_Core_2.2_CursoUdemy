@@ -7,11 +7,13 @@ namespace GameTop
     {
         private readonly iJogador _JogadorA;
         private readonly iJogador _JogadorB;
+        private readonly iJogador _JogadorC;
 
-        public JogoFera(iJogador jogadorA, iJogador jogadorB)
+        public JogoFera(iJogador jogadorA, iJogador jogadorB, iJogador jogadorC)
         {
             _JogadorA = jogadorA;
             _JogadorB = jogadorB;
+            _JogadorC = jogadorC;
         }
         public void IniciarJogo()
         {
@@ -19,11 +21,18 @@ namespace GameTop
             Console.WriteLine(_JogadorA.Chuta());
             Console.WriteLine(_JogadorA.Passe());
 
-            Console.WriteLine("Próximo Jogador");
+            Console.WriteLine("Próximo Jogador 2");
 
             Console.WriteLine(_JogadorB.Corre());
             Console.WriteLine(_JogadorB.Chuta());
             Console.WriteLine(_JogadorB.Passe());
+
+            
+            Console.WriteLine("Agora o Jogador 3");
+
+            Console.WriteLine(_JogadorC.Corre());
+            Console.WriteLine(_JogadorC.Chuta());
+            Console.WriteLine(_JogadorC.Passe());
         } 
     }
 }
