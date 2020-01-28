@@ -15,6 +15,7 @@ namespace GameTop
             _JogadorB = jogadorB;
             _JogadorC = jogadorC;
         }
+        
         public void IniciarJogo()
         {
             Console.WriteLine(_JogadorA.Corre());
