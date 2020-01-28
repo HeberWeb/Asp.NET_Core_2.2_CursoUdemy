@@ -1,4 +1,4 @@
-# Introdução com um projeto console ConsoleCore
+# Seção 1: Introdução .NET Core com um projeto console ConsoleCore
 
 ## Comando utilizados
 * dotnet new -h
