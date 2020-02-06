@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
+using ProAgil.WebAPI.Data;
 using ProAgil.WebAPI.Model;
 
 namespace ProAgil.WebAPI.Controllers
@@ -9,6 +10,13 @@ namespace ProAgil.WebAPI.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
+        public DataContext Context { get; }
+        public ValuesController(DataContext context)
+        {
+            Context = context;
+        }
+               
+
         [HttpGet]
         public ActionResult<IEnumerable<Evento>> Get()
         {
