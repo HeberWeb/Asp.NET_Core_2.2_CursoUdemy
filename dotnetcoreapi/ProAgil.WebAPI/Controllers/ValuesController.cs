@@ -1,6 +1,9 @@
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using ProAgil.WebAPI.Data;
 using ProAgil.WebAPI.Model;
 
@@ -18,51 +21,31 @@ namespace ProAgil.WebAPI.Controllers
                
 
         [HttpGet]
-        public ActionResult<IEnumerable<Evento>> Get()
+        public async Task<IActionResult> Get()
         {
-            return new Evento[]{
-                new Evento(){
-                    EventoId = 1,
-                    DataEvento = "28/01/2020",
-                    Local = "São Paulo",
-                    Lote = "1º Lote",
-                    QtdPessoas = 500,
-                    Tema = "Curso Asp.Net Core 1"
-                },
-
-                new Evento(){
-                    EventoId = 2,
-                    DataEvento = "29/01/2020",
-                    Local = "São Paulo",
-                    Lote = "2º Lote",
-                    QtdPessoas = 300,
-                    Tema = "Curso Asp.Net WEBApi Core 1"
-                }
-            };
+            try
+            {
+                var retorno = await Context.Eventos.ToListAsync();
+                return  Ok(retorno);
+            }
+            catch (System.Exception e)
+            {
+                return this.StatusCode(StatusCodes.Status500InternalServerError, e.Message);
+            }
         }
 
         [HttpGet("{id}")]
-        public ActionResult<Evento> Get(int id)
+        public async Task<IActionResult> Get(int id)
         {
-            return new Evento[]{
-                new Evento(){
-                    EventoId = 1,
-                    DataEvento = "28/01/2020",
-                    Local = "São Paulo",
-                    Lote = "1º Lote",
-                    QtdPessoas = 500,
-                    Tema = "Curso Asp.Net Core 1"
-                },
-
-                new Evento(){
-                    EventoId = 2,
-                    DataEvento = "29/01/2020",
-                    Local = "São Paulo",
-                    Lote = "2º Lote",
-                    QtdPessoas = 300,
-                    Tema = "Curso Asp.Net WEBApi Core 1"
-                }
-            }.FirstOrDefault(x => x.EventoId == id);
+            try
+            {
+                var retorno = await Context.Eventos.FirstOrDefaultAsync(x => x.EventoId == id);
+                return Ok(retorno);
+            }
+            catch (System.Exception e)
+            {
+                return this.StatusCode(StatusCodes.Status500InternalServerError, e.Message);
+            }
         }
     }
 }

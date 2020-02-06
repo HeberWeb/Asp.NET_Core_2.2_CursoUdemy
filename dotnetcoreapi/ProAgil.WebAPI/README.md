@@ -10,3 +10,7 @@ dotnet ef -h
 dotnet ef migrations add "nome da migration"
 dotnet ef database -h
 dotnet ef database update
+
+## Observações 
+### Configuration.GetConnectionString("DefaultConnection")
+* DefaultConnection É criado em appsettings.Development para especificar a conexão com o banco de dados
