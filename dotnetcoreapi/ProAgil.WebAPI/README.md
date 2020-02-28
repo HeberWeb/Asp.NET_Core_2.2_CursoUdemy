@@ -1,4 +1,4 @@
-# Seção 2: Asp.NET Core - API
+dotnet# Seção 2: Asp.NET Core - API
 
 ## Alguns comandos que foram necessários.
 * Instalar pelo Nuget Microsoft.EntityFrameworkCore.Sqlite
@@ -14,3 +14,7 @@ dotnet ef database update
 ## Observações 
 ### Configuration.GetConnectionString("DefaultConnection")
 * DefaultConnection É criado em appsettings.Development para especificar a conexão com o banco de dados
+
+## Add cors (Em Startup.cs)
+* services.AddCors();
+* app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
