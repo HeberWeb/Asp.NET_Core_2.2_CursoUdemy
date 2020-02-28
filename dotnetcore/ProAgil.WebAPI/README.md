@@ -18,3 +18,6 @@ dotnet ef database update
 ## Add cors (Em Startup.cs)
 * services.AddCors();
 * app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+
+## app.UseStaticFiles(); em Startup Configure
+* Incluir pasta wwwroot/img e incluir as imagens
